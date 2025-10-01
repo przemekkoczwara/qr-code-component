@@ -1,6 +1,6 @@
 :root {
   /* colors */
-  
+
   --slate-900: #1f314f;
   --slate-500: #68778d;
   --slate-300: #d5e1ef;
@@ -57,7 +57,23 @@ body {
   align-items: center;
 }
 
+/* mobile first - 375px width */
+
 .container {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+/* destkop - 1440px width */
+
+@media (min-width: 1400px) {
+  .container {
+    width: 100%;
+    max-width: 1440px;
+  }
+}
+
+.qr-code-wrapper {
   width: 320px;
   height: 499px;
   padding: 16px 16px 40px 16px;

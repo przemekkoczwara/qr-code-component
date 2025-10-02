@@ -61,7 +61,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 375px;
+  max-width: fit-content;
   margin: 0 auto;
 }
 /* destkop - 1440px width */
@@ -69,7 +69,6 @@ body {
 @media (min-width: 1400px) {
   .container {
     width: 100%;
-    max-width: 1440px;
   }
 }
 
